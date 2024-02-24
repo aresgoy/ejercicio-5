@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  </style>
+<body>
+    <h1>Optimización de imágenes</h1>
+    <h2>Cerezos</h2>
+    <img alt="Cerezos"
+        src="cerezos-original.jpg"
+        sizes="(min-width: 1023px) 780px,
+               (min-width: 675px) 620px,
+               100vw"
+        srcset="cerezos-320.jpg 320w,
+                cerezos-640.jpg 640w,
+                cerezos-960.jpg 960w,
+                cerezos-1280.jpg 1280w,
+                cerezos-1920.jpg 1920w,
+                cerezos-2560.jpg 2560w"
+    />
+
+    <h2>Rosales</h2>
+    <img alt="Rosales"
+        src="rosales-original.jpg"
+        sizes="(min-width: 1023px) 780px,
+               (min-width: 675px) 620px,
+               100vw"
+        srcset="rosales-320.jpg 320w,
+                rosales-640.jpg 640w,
+                rosales-960.jpg 960w,
+                rosales-1280.jpg 1280w,
+                rosales-1920.jpg 1920w,
+                rosales-2560.jpg 2560w"
+    />
+
+</body>
+</html>
